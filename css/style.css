@@ -499,7 +499,7 @@ iframe[src*="www.google.com/maps/embed"] {
 .tenmetu{
     position: absolute;
     top: 50%;
-    right: 7.5%;
+    left: 7.5%;
     transform: translateY(-50%);
     animation-name: smooth-fadein-out;
     animation-duration: 1.5s;
