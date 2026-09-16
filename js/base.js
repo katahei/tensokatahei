@@ -72,7 +72,7 @@ const indexSwiper = new Swiper('.index.swiper', {
 // photo swiper --------------------------------------------------
 
 const photoSwiper = new Swiper('.photo.swiper', {
-    // loop: true,
+    loop: true,
     slidesPerView: 1,
     spaceBetween: 20,
     speed: 1000,

@@ -384,7 +384,6 @@ iframe[src*="www.google.com/maps/embed"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1/1 !important;
 }
 
 .photo.swiper .swiper-slide img {
