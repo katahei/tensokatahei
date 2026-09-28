@@ -102,14 +102,14 @@ a.reservation > img.home{
 /* ハンバーガーメニューボタン */
 .menu-toggle {
     position: fixed;
-    right: 15px;
-    bottom: 30px;
+    right: 0px;
+    bottom: 0px;
     width: var(--box-w);
     height: var(--box-h);
     cursor: pointer;
     background: none;
     border: none;
-    padding: 0;
+    padding: 2rem;
     display: block;
 
     z-index: 100;
@@ -117,7 +117,7 @@ a.reservation > img.home{
 
 .menu-toggle .bar {
     position: absolute;
-    left: 0;
+    right: 15px;
     width: var(--box-w);
     height: var(--line-h);
     background: var(--c1);
@@ -125,8 +125,8 @@ a.reservation > img.home{
     transition: transform 0.45s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
-.menu-toggle .bar:nth-child(1) { top: 0; }
-.menu-toggle .bar:nth-child(2) { bottom: 0; }
+.menu-toggle .bar:nth-child(1) { bottom: 41px; }
+.menu-toggle .bar:nth-child(2) { bottom: 30px; }
 
 /* --------------------------------------- */
 /* ハンバーガーメニューボタン 開閉 */
@@ -214,7 +214,7 @@ a.reservation > img.home{
 .language-switch {
     position: fixed;
     right: 15px;
-    top: 30px;
+    top: 0;
     z-index: 100;
 
     display: flex;
@@ -227,7 +227,7 @@ a.reservation > img.home{
     color: var(--c1);
     background: none;
     border: none;
-    padding: 0;
+    padding: 1.5rem 0;
     cursor: pointer;
     display: inline;
 }
@@ -242,7 +242,7 @@ a.reservation > img.home{
 
 @media screen and (min-width: 768px){
     .menu-toggle {
-        right: 40px;
+        right: 26px;
     }
 
     .menu-list {
